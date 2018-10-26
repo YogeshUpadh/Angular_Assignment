@@ -11,6 +11,7 @@ button.btn-submit{
     color: blanchedalmond;
     width: 100%;
     line-height: 15px;
+    border-radius: 30px;
 }
 
 button.btn-submit:focus,button.btn-submit:hover{
@@ -23,6 +24,14 @@ button.btn-submit:focus,button.btn-submit:hover{
 
 h2 {
     font-size: 2.56rem;
+}
+
+.background-texture {
+    background-image: linear-gradient(180deg,hsla(0,0%,100%,0) 60%,#fff),linear-gradient(70deg,#dbedff 32%,#ebfff0);
+}
+
+.form-border{
+    border: 1px solid darkgray;
 }
 
 @media(max-width:767px){
