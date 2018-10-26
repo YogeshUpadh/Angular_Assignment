@@ -17,10 +17,10 @@
                 </div>
                 <div class="row">
                     <div class="input-field col s6">
-                        <button [disabled]="!userRegistrationForm.valid" class="btn-large btn-submit" type="submit">Register</button>
+                        <button class="btn-large btn-submit" type="submit">Register</button>
                     </div>
                     <div class="input-field col s6">
-                        <button (click)="showRegisteredUser()" [disabled]="!userRegistrationForm.valid" class="btn-large btn-submit" type="button">Show Registered Users</button>
+                        <button (click)="showRegisteredUser()" class="btn-large btn-submit" type="button">Show Registered Users</button>
                     </div>
                 </div>
             </form>
@@ -32,7 +32,7 @@
     
     <!--<div *ngIf="responseData?.length>0">-->
         <h4 class="center-align">
-            Registered Users
+            List of Registered Users
         </h4>
     <!--</div>-->
     <ul *ngFor="let data of responseData">
